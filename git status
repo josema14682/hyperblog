@@ -1,0 +1,58 @@
+[33mcommit 807f32d2ea1061e5439cc665ca0c41cb23fb70de[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;32mcabecera[m[33m)[m
+Author: Josema <consultas@pewmann.com>
+Date:   Tue Feb 9 21:03:19 2021 -0300
+
+    agregado a la cabecera el archivo
+
+[1mdiff --git a/blogspot.html b/blogspot.html[m
+[1mindex e5e7f9b..1453085 100644[m
+[1m--- a/blogspot.html[m
+[1m+++ b/blogspot.html[m
+[36m@@ -4,13 +4,18 @@[m
+ <head>[m
+     <meta charset="UTF-8">[m
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m[32m    <link rel="stylesheet" href="./estilos.css">[m
+     <title>Document</title>[m
+ </head>[m
+ [m
+ <body>[m
+[31m-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus officia deleniti animi totam? Sed voluptatibus[m
+[31m-        porro eius, facilis eligendi expedita dicta a, tempore officiis repellendus, vero earum quis iure doloremque![m
+[31m-    </p>[m
+[32m+[m[32m    <div class="container">[m
+[32m+[m[32m        <div class="post">[m
+[32m+[m[32m            <h1>Este es un titulo interesante e interactivo</h1>[m
+[32m+[m[32m            <p>Este es el parrafo de inicio donde vamos a explicar como funcionan las ramas.</p>[m
+[32m+[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m    </div>[m
+ </body>[m
+ [m
+ </html>[m
+\ No newline at end of file[m
+[1mdiff --git a/estilos.css b/estilos.css[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3257126[m
+[1m--- /dev/null[m
+[1m+++ b/estilos.css[m
+[36m@@ -0,0 +1,19 @@[m
+[32m+[m[32mbody{[m
+[32m+[m[32m    color: #333;[m
+[32m+[m[32m    text-align: center;[m
+[32m+[m[32m    font-family: arial;[m
+[32m+[m[32m    margin: 0;[m
+[32m+[m[32m    padding: 0;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.container{[m
+[32m+[m[32m    width: 70%;[m
+[32m+[m[32m    padding: 1em;[m
+[32m+[m[32m    border: 1px solid blue;[m
+[32m+[m[32m    margin: 0 auto;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.container h1{[m
+[32m+[m[32m    font-size: 20px;[m
+[32m+[m[32m}[m
+[32m+[m
